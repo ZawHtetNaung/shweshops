@@ -1,0 +1,1 @@
+Post::where('expiration_date', '<', Carbon::now())->delete();
